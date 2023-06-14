@@ -10,7 +10,7 @@ i {
 }
 
 body {
-  background: linear-gradient(90deg, rgb(84, 130, 255), rgb(100, 255, 134));
+  background: rgb(4, 28, 94);
 }
 
 header {
@@ -88,8 +88,9 @@ section {
   align-items: center;
 }
 section div.todo {
-  width: 30vw;
+  width: 80vw;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   margin: 0.2rem 0rem;
   transition: all 0.1s ease;
@@ -100,6 +101,9 @@ section div.todo p {
   padding: 0.25rem 0.75rem;
   margin: 0rem 0.25rem;
   font-size: 1.75rem;
+}
+section div.todo .todo-text {
+  width: 70%;
 }
 section div.todo button {
   padding: 0.25rem 0.5rem;
